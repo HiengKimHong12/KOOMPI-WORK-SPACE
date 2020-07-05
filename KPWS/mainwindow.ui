@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>20</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>80</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>40</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QToolButton" name="doccumenttoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Doccument</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/writer.svg</normaloff>:/writer.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="autoRepeat">
+         <bool>false</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>false</bool>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QToolButton" name="gridtoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Grid</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/google-sheets.svg</normaloff>:/google-sheets.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="popupMode">
+         <enum>QToolButton::DelayedPopup</enum>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QToolButton" name="presentationtoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Presentation</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/presentation.svg</normaloff>:/presentation.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QToolButton" name="gallerytoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Gallery</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/content.svg</normaloff>:/content.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QToolButton" name="producttoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Product planning</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/vision.svg</normaloff>:/vision.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QToolButton" name="pdftoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>PDF</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/pdf.svg</normaloff>:/pdf.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QToolButton" name="yourfiletoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Your File</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/folder.svg</normaloff>:/folder.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QToolButton" name="todotoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>To Do</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/requirement.svg</normaloff>:/requirement.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QToolButton" name="workspacetoolButton">
+        <property name="minimumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>125</width>
+          <height>125</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Condensed ExtraLight</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>WorkSpace</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Resource.qrc">
+          <normaloff>:/work.svg</normaloff>:/work.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+        <property name="toolButtonStyle">
+         <enum>Qt::ToolButtonTextUnderIcon</enum>
+        </property>
+        <property name="autoRaise">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

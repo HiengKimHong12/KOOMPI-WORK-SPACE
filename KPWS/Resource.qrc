@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>align.svg</file>
+        <file>alignment.svg</file>
+        <file>background.svg</file>
+        <file>bold.svg</file>
+        <file>content.svg</file>
+        <file>edit.svg</file>
+        <file>folder.svg</file>
+        <file>font.svg</file>
+        <file>google-sheets.svg</file>
+        <file>italic.svg</file>
+        <file>paper.svg</file>
+        <file>pdf.svg</file>
+        <file>presentation.svg</file>
+        <file>requirement.svg</file>
+        <file>text (1).svg</file>
+        <file>text.svg</file>
+        <file>underline.svg</file>
+        <file>vision.svg</file>
+        <file>work.svg</file>
+        <file>writer.svg</file>
+        <file>../Downloads/zoomin.svg</file>
+        <file>../Downloads/search.svg</file>
+        <file>../Downloads/fundo-branco-tecnologia/3274752.jpg</file>
+        <file>color.json</file>
+    </qresource>
+</RCC>
